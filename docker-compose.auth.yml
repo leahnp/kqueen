@@ -1,0 +1,6 @@
+version: '2'
+services:
+  ldap:
+    image: osixia/openldap
+    ports:
+      - 127.0.0.1:389:389
