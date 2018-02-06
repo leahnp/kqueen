@@ -389,6 +389,7 @@ class User(Model, metaclass=ModelMeta):
     role = StringField(required=True)
     active = BoolField(required=True)
     metadata = JSONField(required=False)
+    auth = StringField()
 
     @property
     def namespace(self):

@@ -44,6 +44,14 @@ class BaseConfig:
     PROVISIONER_TIMEOUT = 3600
     PROMETHEUS_WHITELIST = '127.0.0.0/8'
 
+    # Auth settings
+    AUTH = {
+        "ldap": {
+            "uri": "ldap://127.0.0.1:398",
+            "engine": "LDAPAuth",
+        },
+    }
+
     @classmethod
     def get(cls, name, default=None):
         """Emulate get method from dict"""
