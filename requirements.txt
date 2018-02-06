@@ -8,7 +8,7 @@ prometheus_client
 pycrypto
 python-etcd
 python-jenkins
-python-ldap
+python-ldap==3.0.0b4
 pyyaml
 requests
 
