@@ -42,6 +42,7 @@ setup(
         'prometheus_client',
         'python-etcd',
         'python-jenkins',
+        'python-ldap',
         'pyyaml',
         'requests',
         'google-api-python-client==1.6.4',
